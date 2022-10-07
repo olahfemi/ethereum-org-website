@@ -407,7 +407,7 @@ To reduce calculations (and therefore gas costs), this fee is only calculated wh
         feeOn = feeTo != address(0);
 ```
 
-Read the fee destination of the factory. If it is zero then there is no protocol fee and no need to calculate it that fee.
+Read the fee destination of the factory. If it is zero then there is no protocol fee and no need to calculate that fee.
 
 ```solidity
         uint _kLast = kLast; // gas savings
